@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Positioning and Opacity</title>
+        <style>
+            div {
+                right: 20px;
+                border: 4px solid #605969;
+            }
+            div.absolute {
+                position: absolute;
+                left: 30px;
+                border: 2px solid #f4f4f2;
+            }
+            div.relative {
+                position: relative;
+                left: 90px;
+                border: 5px solid #34e2ad;
+            }
+            div.fixed {
+                position: fixed;
+                top: 1px;
+                right: 30px;
+                width: 400px;
+                border: 3px solid #306fae;
+            }
+            div.sticky {
+                position: sticky;
+                top: 3px;
+                right: 40px;
+                width: 200px;
+                border: 1px solid #4050fa;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Positioning</h2>
+        <div>
+            No Positioning Property (Static)
+        </div>
+        <div class="Sticky">
+            Sticky Positioning Property
+        </div>
+        <div class="Relative">
+            Relative Positioning Property;
+            <div class="Absolute">
+                Absolute Positioning Property
+            </div>
+        </div>
+        <div class="Fixed">
+            Fixed Positioning Property
+        </div>
+
+    </body>
+</html>
